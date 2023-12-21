@@ -40,3 +40,12 @@ const fibHelp = (n, memoize) => {
 }
 
 module.exports = { change, fib }
+
+const factorial = (n) => {
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+};
+
+module.exports = { change, fib, factorial };

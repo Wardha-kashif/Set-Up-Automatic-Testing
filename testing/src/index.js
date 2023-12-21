@@ -39,6 +39,6 @@ const fibHelp = (n, memoize) => {
     return res;
 }
 
-module.exports = { change, fib }
+// module.exports = { change, fib }
 
 

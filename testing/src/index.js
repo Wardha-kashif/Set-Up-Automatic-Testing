@@ -39,13 +39,6 @@ const fibHelp = (n, memoize) => {
     return res;
 }
 
-module.exports = { change, fib }
+// module.exports = { change, fib }
 
-const sum = (n) => {
-    if (n === 0) {
-        return 0;
-    }
-    return n + sum(n - 1);
-};
 
-module.exports = { change, fib, factorial, sum };

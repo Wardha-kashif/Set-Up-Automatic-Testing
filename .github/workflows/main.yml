@@ -30,7 +30,7 @@ jobs:
           node-version: 14
 
       - name: Install all dependencies
-        run: npm install
+        run: yarn install
 
       - name: Run Jest Tests
         run: yarn run test

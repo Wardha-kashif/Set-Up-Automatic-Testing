@@ -15,7 +15,7 @@ var change = function (amount, coins) {
 
 var fib = function (n) {
     const memoize = [];
-    memoize[0] = 1;
+    memoize[0] = 0;
     memoize[1] = 1;
 
     fibHelp(n, memoize);
